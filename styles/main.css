@@ -1,0 +1,109 @@
+
+@import "reset.css";
+@import "fonts.css";
+
+body{
+  background:  #000000;
+}
+/* box-1 */
+.headline{
+font-family: Morganite , sans-serif;
+font-style: italic;
+font-weight: 800;
+font-size: 300px;
+line-height: 230px;
+color: #FF5408;
+margin-left: 1082px;
+margin-top: 147px;
+
+}
+.location{
+font-family: Disket Mono , sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 75.8595px;
+line-height: 85px;
+color: #FF5408;
+}
+.date{
+font-family: Morganite;
+font-style: italic;
+font-weight: 800;
+font-size: 251px;
+line-height: 250px;
+color: #FF5408;
+}
+.address{
+font-family: Disket Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 39px;
+line-height: 43px;
+color: #FF5408;
+}
+.smile-left10{
+margin-top: -480px;
+margin-right: 1197px;
+margin-left: 113px;
+}
+.cross-left10{
+position: absolute;
+margin-top: -2px;
+margin-right: 1091px;
+margin-left: 463px;
+z-index: 200;
+}
+.under-cross10{
+position: absolute;
+margin-top: -40px;
+margin-left: 432px;
+margin-right: 1091px;
+z-index: 100;
+}
+.microphone0{
+margin-top: -196px;
+margin-left: 630px;
+}
+.pill-right10{
+margin-top: -420px;
+margin-left: 870px;
+margin-right: 775px;
+}
+.bank-left10{
+margin-top: -180px;
+margin-left: 130px;
+}
+.hand-line-left{
+margin-left: 64px;
+margin-top: -90px;
+}
+.line-left30{
+margin-top: -350px;
+margin-left: 620px;
+}
+.cross10{
+margin-left: 948px;
+margin-top: -300px;
+}
+.patch-left10{
+margin-left: 117px;
+margin-top: -313px;
+}
+.bubble20{
+margin-left: 287px;
+}
+.bubble30{
+margin-left: 234px;
+}
+.bubble40{
+margin-left: 325px;
+margin-top: -20px;
+}
+.bubble50{
+margin-left: 150px;
+margin-top: -110px;
+}
+.briefcase-left10{
+margin-left: 400px;
+margin-top: -87px;
+}

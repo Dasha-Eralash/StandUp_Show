@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: "Morganite";
+  font-weight: bold;
+  src: url(../fonts/Morganite.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Disket Mono";
+  font-weight: bold;
+  src: url(../fonts/Disket-Mono-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Disket Mono";
+  font-weight: regular;
+  src: url(../fonts/Disket-Mono-Regular.ttf) format('truetype');
+}
