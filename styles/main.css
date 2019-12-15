@@ -15,7 +15,11 @@ line-height: 230px;
 color: #FF5408;
 margin-left: 1082px;
 margin-top: 147px;
-
+animation: glitch 5s linear infinite;
+}
+.show{
+padding: 75px;
+animation: glitch 5s linear infinite;
 }
 .location{
 font-family: Disket Mono , sans-serif;
@@ -52,6 +56,7 @@ margin-top: -2px;
 margin-right: 1091px;
 margin-left: 463px;
 z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .under-cross10{
 position: absolute;
@@ -68,6 +73,7 @@ margin-left: 630px;
 margin-top: -420px;
 margin-left: 870px;
 margin-right: 775px;
+animation: spin 1.05s linear infinite;
 }
 .bank-left10{
 margin-top: -180px;
@@ -84,6 +90,7 @@ margin-left: 620px;
 .cross10{
 margin-left: 948px;
 margin-top: -300px;
+animation: rotateIn 1s linear infinite;
 }
 .patch-left10{
 margin-left: 117px;
@@ -91,19 +98,167 @@ margin-top: -313px;
 }
 .bubble20{
 margin-left: 287px;
+animation: rubberBand 1s linear infinite;
 }
 .bubble30{
 margin-left: 234px;
+animation: rubberBand 1.05s linear infinite;
 }
 .bubble40{
 margin-left: 325px;
 margin-top: -20px;
+animation: rubberBand 1s linear infinite;
 }
 .bubble50{
 margin-left: 150px;
 margin-top: -110px;
+animation: rubberBand 0.85s linear infinite;
 }
 .briefcase-left10{
 margin-left: 400px;
 margin-top: -87px;
+
+}
+/* animatin-box-1 */
+/* @keyframes rubberBand {
+  0% {
+    transform: scale3d(1.10, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.90, 1.20, 1);
+  }
+  100% {
+    transform: scale3d(1, 0.75, 1);
+  }
+}
+@keyframes rotateIn {
+from {
+  transform-origin: center;
+  transform: rotate3d(0, 0, 1, -200deg);
+  opacity: 1;
+}
+to {
+  transform-origin: center;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+}
+@keyframes spin {
+0% {
+  transform: translate3d(0, -100%, 0);
+}
+50% {
+  transform: translate3d(0, 100%, 0);
+}
+100% {
+  transform: translate3d(0, -100%, 0);
+}
+} */
+
+/* box-2 */
+.smile-left2{
+  margin-left: 234px;
+  margin-top: 130px;
+}
+.line-left-violet{
+  margin-left: 90px;
+  margin-top: -193px;
+}
+.box-of-pills{
+  margin-left: 583px;
+  margin-top: -510px;
+  z-index: 100;
+}
+/* .pill-of-box{
+  margin-left: 600px;
+  margin-top: -510px;
+  z-index: 200;
+} */
+.line-right-orange{
+margin-left: 764px;
+margin-top: -700px;
+}
+.bubble41{
+margin-left: 876px;
+margin-top: -170px;
+}
+.bubble21{
+margin-left: 910px;
+margin-top: -120px;
+}
+.bubble{
+margin-left: 870px;
+margin-top: -115px;
+}
+.bubble31{
+margin-left: 916px;
+margin-top: -107px;
+}
+.bottle-of-liquid{
+position: absolute;
+margin-left: 1087px;
+margin-top: 127px;
+z-index: 100;
+}
+.liquid-for-bottle{
+position: absolute;
+margin-left: 1095px;
+margin-top: 220px;
+z-index: 200;
+}
+.little-smile-right{
+margin-left: 1270px;
+margin-top: 40px;
+}
+.little-smile-right2{
+margin-left: 1427px;
+margin-top: 60px;
+}
+.bottle-of-liquid-left-1{
+position: absolute;
+margin-left: 93px;
+margin-top: -50px;
+z-index: 100;
+}
+.liquid-for-bottle-1{
+position: absolute;
+margin-left: 105px;
+margin-top: -43px;
+z-index: 200;
+}
+.bottle-of-liquid-left-2{
+position: absolute;
+margin-left: 200px;
+margin-top: -50px;
+z-index: 100;
+}
+.liquid-for-bottle-2{
+position: absolute;
+margin-left: 204px;
+margin-top: -43px;
+z-index: 200;
+}
+.bottle-of-liquid-left-0{
+position: absolute;
+margin-left: 282px;
+margin-top: -50px;
+z-index: 100;
+}
+.liquid-for-bottle-0{
+position: absolute;
+margin-left: 295px;
+margin-top: -43px;
+z-index: 200;
+}
+.bottle-of-liquid-left-3{
+position: absolute;
+margin-left: 391px;
+margin-top: -50px;
+z-index: 100;
+}
+.liquid-for-bottle-3{
+position: absolute;
+margin-left: 396px;
+margin-top: -43px;
+z-index: 200;
 }
