@@ -21,30 +21,6 @@ animation: glitch 5s linear infinite;
 padding: 75px;
 animation: glitch 5s linear infinite;
 }
-.location{
-font-family: Disket Mono , sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 75.8595px;
-line-height: 85px;
-color: #FF5408;
-}
-.date{
-font-family: Morganite;
-font-style: italic;
-font-weight: 800;
-font-size: 251px;
-line-height: 250px;
-color: #FF5408;
-}
-.address{
-font-family: Disket Mono;
-font-style: normal;
-font-weight: normal;
-font-size: 39px;
-line-height: 43px;
-color: #FF5408;
-}
 .smile-left10{
 margin-top: -480px;
 margin-right: 1197px;
@@ -351,11 +327,49 @@ margin-top: 190px;
 margin-left: 230px;
 }
 .box-of-pills2{
+position: absolute;
 margin-top: -440px;
 margin-left: 325px;
+z-index: 100;
+}
+.pill-of-box21{
+position: absolute;
+margin-left: 280px;
+margin-top: -415px;
+z-index: 200;
+}
+.pill-of-box22{
+position: absolute;
+margin-left: 280px;
+margin-top: -335px;
+z-index: 200;
+}
+.pill-of-box23{
+position: absolute;
+margin-left: 360px;
+margin-top: -415px;
+z-index: 200;
+}
+.pill-of-box24{
+position: absolute;
+margin-left: 360px;
+margin-top: -335px;
+z-index: 200;
+}
+.pill-of-box25{
+position: absolute;
+margin-left: 440px;
+margin-top: -415px;
+z-index: 200;
+}
+.pill-of-box26{
+position: absolute;
+margin-left: 440px;
+margin-top: -335px;
+z-index: 200;
 }
 .big-orange-line{
-margin-top: -260px;
+margin-top: -500px;
 margin-left: 540px;
 }
 .thermometer{
@@ -389,4 +403,49 @@ margin-left: 885px;
 .smile-left3{
 margin-top: -100px;
 margin-left: 1390px;
+}
+/* box-5 */
+.date{
+font-family: Morganite;
+font-style: italic;
+font-weight: 800;
+font-size: 251px;
+line-height: 250px;
+color: #FF5408;
+margin-left: 100px;
+margin-top: -160px;
+}
+.moscow{
+font-family: Disket Mono , sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 75.8595px;
+line-height: 85px;
+color: #FF5408;
+margin-left: 100px;
+margin-top: -25px;
+}
+.location{
+margin-left: 100px;
+margin-top: 26px;
+}
+.address{
+font-family: Disket Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 39px;
+line-height: 43px;
+color: #FF5408;
+margin-left: 220px;
+margin-top: -90px;
+}
+.long-line-violet-box-5{
+margin-left: 400px;
+margin-top: 40px;
+}
+.box-of-pills3{
+position: absolute;
+margin-left: 430px;
+margin-top: -300px;
+z-index: 100;
 }
