@@ -117,7 +117,6 @@ animation: rubberBand 0.85s linear infinite;
 .briefcase-left10{
 margin-left: 400px;
 margin-top: -87px;
-
 }
 /* animatin-box-1 */
 /* @keyframes rubberBand {
@@ -157,26 +156,57 @@ to {
 
 /* box-2 */
 .smile-left2{
-  margin-left: 234px;
-  margin-top: 130px;
+margin-left: 234px;
+margin-top: 130px;
 }
 .line-left-violet{
-  margin-left: 90px;
-  margin-top: -193px;
+margin-left: 90px;
+margin-top: -193px;
 }
 .box-of-pills{
-  margin-left: 583px;
-  margin-top: -510px;
-  z-index: 100;
+margin-left: 583px;
+margin-top: -510px;
+z-index: 100;
 }
-/* .pill-of-box{
-  margin-left: 600px;
-  margin-top: -510px;
-  z-index: 200;
-} */
+.pills-of-box{
+position: absolute;
+margin-left: 590px;
+margin-top: -215px;
+z-index: 200;
+}
+.pill-of-box{
+position: absolute;
+margin-left: 16px;
+margin-top: -6px;
+}
+.pill-of-box2{
+position: absolute;
+margin-left: 90px;
+margin-top: -6px;
+}
+.pill-of-box3{
+position: absolute;
+margin-left: 16px;
+margin-top: 80px;
+}
+.pill-of-box4{
+position: absolute;
+margin-left: 90px;
+margin-top: 80px;
+}
+.pill-of-box5{
+position: absolute;
+margin-left: 16px;
+margin-top: 160px;
+}
+.pill-of-box6{
+position: absolute;
+margin-left: 90px;
+margin-top: 160px;
+}
 .line-right-orange{
 margin-left: 764px;
-margin-top: -700px;
+margin-top: -540px;
 }
 .bubble41{
 margin-left: 876px;
