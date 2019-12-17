@@ -449,3 +449,119 @@ margin-left: 430px;
 margin-top: -300px;
 z-index: 100;
 }
+.pill-of-box31{
+position: absolute;
+margin-left: 430px;
+margin-top: -340px;
+z-index: 200;
+}
+.pill-of-box32{
+position: absolute;
+margin-left: 520px;
+margin-top: -340px;
+z-index: 200;
+}
+.pill-of-box33{
+position: absolute;
+margin-left: 520px;
+margin-top: -250px;
+z-index: 200;
+}
+.pill-of-box34{
+position: absolute;
+margin-left: 430px;
+margin-top: -250px;
+z-index: 200;
+}
+.pill-of-box35{
+position: absolute;
+margin-left: 520px;
+margin-top: -170px;
+z-index: 200;
+}
+.pill-of-box36{
+position: absolute;
+margin-left: 430px;
+margin-top: -170px;
+z-index: 200;
+}
+.briefcase-box-5{
+position: absolute;
+margin-left: 640px;
+margin-top: -95px;
+z-index: 100;
+}
+.cross-briefcase-box-5{
+position: absolute;
+margin-left: 710px;
+margin-top: -60px;
+z-index: 200;
+}
+.bank-box-5{
+margin-left: 710px;
+margin-top: -475px;
+}
+.syringe-small{
+margin-left: 976px;
+margin-top: -170px;
+}
+.big-line-violet-box-5{
+margin-left: 1260px;
+margin-top: -650px;
+}
+.syringe-big{
+margin-left: 1400px;
+margin-top: -750px;
+}
+.circle-for-cross{
+position: absolute;
+margin-left: 1430px;
+margin-top: 160px;
+z-index: 100;
+}
+.cross-box-5-violet{
+position: absolute;
+margin-left: 1455px;
+margin-top: 186px;
+z-index: 200;
+}
+.bank-triangle{
+position: absolute;
+margin-left: 50px;
+margin-top: -40px;
+z-index: 100;
+}
+.liquid-triangle-box-5{
+position: absolute;
+margin-left: 100px;
+margin-top: 120px;
+z-index: 200;
+}
+.cross-box-5-orange{
+margin-left: 470px;
+margin-top: 150px;
+}
+.patch-box-5{
+margin-left: 880px;
+margin-top: -192px;
+}
+.thermometer-box-5{
+margin-left: 880px;
+margin-top: 13px;
+}
+.bank-circle-box-5{
+position: absolute;
+margin-top: -460px;
+margin-left: 1150px;
+z-index: 100;
+}
+.liquid-circle-box-5{
+  position: absolute;
+  margin-top: -335px;
+  margin-left: 1161px;
+  z-index: 200;
+}
+.hand{
+margin-left: 1080px;
+margin-top: -910px;
+}
