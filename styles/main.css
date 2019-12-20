@@ -23,8 +23,8 @@ animation: blinking 1s linear infinite;
 }
 .show{
 position: absolute;
-right: 66px;
-padding: 13px;
+top: 230px;
+left: 89px;
 }
 .smile-left10{
 position: absolute;
@@ -119,6 +119,11 @@ position: absolute;
 top: 540px;
 left: 395px;
 }
+.smile-left2{
+position: absolute;
+top: 820px;
+left: 180px;
+}
 /* animation-box  */
  @keyframes rubberBand {
 0% {
@@ -147,12 +152,12 @@ to {
   transform: translate3d(0, -200%, 0);
 }
 }
-@keyframes rotateIn2 {
+@keyframes rotateIn2{
 to {
  transform: rotate3d(0, 0, 1, 360deg);
 }
 }
-@keyframes blinking {
+@keyframes blinking{
 50%{
  opacity: 1;
 }
@@ -264,8 +269,8 @@ animation: rotateIn2 1s linear infinite;
 }
 .little-smile-right2{
 position: absolute;
-top: 1100px;
-left: 1350px;
+top: 1090px;
+left: 1390px;
 animation: rotateIn 1s linear infinite;
 }
 .bottle-of-liquid-left-1{
@@ -358,8 +363,8 @@ left: 110px;
 }
 .doctor{
 position: absolute;
-top: 1260px;
-left: 1000px;
+top: 1230px;
+left: 1100px;
 }
 .bubble20-box-3{
 position: absolute;
@@ -381,258 +386,370 @@ animation: rubberBand 1s linear infinite;
 }
 .bubble60-box-3{
 position: absolute;
-top: 1355px;
+top: 1330px;
 left: 800px;
 animation: rubberBand 0.80s linear infinite;
 }
 .bubble70-box-3{
 position: absolute;
-top: 1375px;
-left: 940px;
+top: 1350px;
+left: 980px;
 animation: rubberBand 0.90s linear infinite;
 }
-
 /* box-4 */
-/* .line-left-violet2{
-margin-top: 190px;
-margin-left: 230px;
-}
 .box-of-pills2{
 position: absolute;
-margin-top: -440px;
-margin-left: 325px;
+top: 1545px;
+left: 325px;
 z-index: 100;
 }
-.pill-of-box21{
+/* .pill-of-box21{
 position: absolute;
-margin-left: 280px;
-margin-top: -415px;
+top: 1550px;
+left: 360px;
 z-index: 200;
 }
 .pill-of-box22{
 position: absolute;
-margin-left: 280px;
-margin-top: -335px;
+top: 1550px;
+left: 280px;
 z-index: 200;
+animation: rotateIn2 1s linear infinite;
 }
 .pill-of-box23{
 position: absolute;
-margin-left: 360px;
-margin-top: -415px;
+top:1610
+left: 360px;
 z-index: 200;
+animation: rotateIn2 1s linear infinite;
 }
 .pill-of-box24{
 position: absolute;
-margin-left: 360px;
-margin-top: -335px;
+top:1610
+left: 360px;
 z-index: 200;
+animation: rotateIn2 1s linear infinite;
 }
 .pill-of-box25{
 position: absolute;
-margin-left: 440px;
-margin-top: -415px;
+top:1650
+left: 440px;
 z-index: 200;
+animation: rotateIn2 1s linear infinite;
 }
 .pill-of-box26{
 position: absolute;
-margin-left: 440px;
-margin-top: -335px;
+top:1650
+left: 440px;
 z-index: 200;
+animation: rotateIn2 1s linear infinite;
+} */
+.line-left-violet2{
+position: absolute;
+top: 1580px;
+left: 230px;
 }
 .big-orange-line{
-margin-top: -500px;
-margin-left: 540px;
+position: absolute;
+top: 1420px;
+left: 550px;
 }
 .thermometer{
-margin-top: -680px;
-margin-left: 660px;
+position: absolute;
+top: 1510px;
+left: 676px;
 }
 .thermometer-degree{
-margin-top: -460px;
-margin-left: 685px;
+position: absolute;
+top: 1600px;
+left: 702px;
+
 }
 .cross-and-oval{
-margin-top: -300px;
-margin-left: 1126px;
+position: absolute;
+width: 150px;
+top: 1670px;
+left: 1117px;
+animation: rubberBand 1s linear infinite;
 }
 .bubble1-box-4{
-margin-top: 40px;
-margin-left: 550px;
+position: absolute;
+top: 1870px;
+left: 550px;
+animation: rubberBand 0.90s linear infinite;
 }
 .bubble2-box-4{
-margin-top: -170px;
-margin-left: 550px;
+position: absolute;
+top: 1790px;
+left: 550px;
+animation: rubberBand 0.80s linear infinite;
 }
 .bubble3-box-4{
-margin-top: -130px;
-margin-left: 590px;
+position: absolute;
+top: 1720px;
+left: 600px;
+animation: rubberBand 1s linear infinite;
 }
 .vertical-pill{
-margin-top: -230px;
-margin-left: 885px;
+position: absolute;
+top: 1540px;
+left: 894px;
+animation: spin2 1.05s linear infinite;
 }
 .smile-left3{
-margin-top: -100px;
-margin-left: 1390px;
-} */
+position: absolute;
+top: 1710px;
+width: 170px;
+left: 1420px;
+}
+
 /* box-5 */
-/* .date{
+.date{
+position: absolute;
 font-family: Morganite;
 font-style: italic;
 font-weight: 800;
 font-size: 251px;
 line-height: 250px;
 color: #FF5408;
-margin-left: 100px;
-margin-top: -160px;
+top: 1870px;
+left: 115px;
+-webkit-text-shadow:0 0 70px #7116A0;
+text-shadow:0 0 70px #7116A0;
+animation: blinking 2s linear infinite;
 }
 .moscow{
+position: absolute;
 font-family: Disket Mono , sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 75.8595px;
 line-height: 85px;
 color: #FF5408;
-margin-left: 100px;
-margin-top: -25px;
+top: 2090px;
+left: 115px;
+-webkit-text-shadow:0 0 70px #7116A0;
+text-shadow:0 0 70px #7116A0;
+animation: blinking 2s linear infinite;
 }
 .location{
-margin-left: 100px;
-margin-top: 26px;
+position: absolute;
+top: 2190px;
+left: 100px;
+-webkit-text-shadow:0 0 70px #7116A0;
+text-shadow:0 0 70px #7116A0;
+animation: blinking 2s linear infinite;
 }
 .address{
+position: absolute;
 font-family: Disket Mono;
 font-style: normal;
 font-weight: normal;
 font-size: 39px;
 line-height: 43px;
 color: #FF5408;
-margin-left: 220px;
-margin-top: -90px;
+top: 2190px;
+left: 220px;
+-webkit-text-shadow:0 0 70px #7116A0;
+text-shadow:0 0 70px #7116A0;
+animation: blinking 2s linear infinite;
 }
 .long-line-violet-box-5{
-margin-left: 400px;
-margin-top: 40px;
+position: absolute;
+top: 2320px;
+left: 380px;
 }
 .box-of-pills3{
 position: absolute;
-margin-left: 430px;
-margin-top: -300px;
+top: 2420px;
+left: 405px;
 z-index: 100;
 }
-.pill-of-box31{
+/* .pill-of-box31{
 position: absolute;
-margin-left: 430px;
-margin-top: -340px;
+top: 1600px
+left: 430px;
 z-index: 200;
-}
-.pill-of-box32{
+} */
+/* .pill-of-box32{
 position: absolute;
-margin-left: 520px;
-margin-top: -340px;
+left: 520px;
+top: -340px;
 z-index: 200;
-}
-.pill-of-box33{
+} */
+/* .pill-of-box33{
 position: absolute;
 margin-left: 520px;
 margin-top: -250px;
 z-index: 200;
-}
-.pill-of-box34{
+} */
+/* .pill-of-box34{
 position: absolute;
 margin-left: 430px;
 margin-top: -250px;
 z-index: 200;
-}
-.pill-of-box35{
+} */
+/* .pill-of-box35{
 position: absolute;
 margin-left: 520px;
 margin-top: -170px;
 z-index: 200;
-}
-.pill-of-box36{
+} */
+/* .pill-of-box36{
 position: absolute;
 margin-left: 430px;
 margin-top: -170px;
 z-index: 200;
-}
+} */
 .briefcase-box-5{
 position: absolute;
-margin-left: 640px;
-margin-top: -95px;
+top: 2620px;
+left: 615px;
 z-index: 100;
 }
 .cross-briefcase-box-5{
 position: absolute;
-margin-left: 710px;
-margin-top: -60px;
+top: 2655px;
+left: 690px;
 z-index: 200;
+animation: rotateIn 1.6s linear infinite;
 }
 .bank-box-5{
-margin-left: 710px;
-margin-top: -475px;
+position: absolute;
+top: 2230px;
+left: 700px;
 }
 .syringe-small{
-margin-left: 976px;
-margin-top: -170px;
+position: absolute;
+top: 2342px;
+left: 955px;
 }
 .big-line-violet-box-5{
-margin-left: 1260px;
-margin-top: -650px;
+position: absolute;
+top: 2000px;
+left: 1270px;
 }
 .syringe-big{
-margin-left: 1400px;
-margin-top: -750px;
+position: absolute;
+top: 2160px;
+left: 1400px;
+}
+.hand{
+position: absolute;
+top: 2000px;
+left: 1080px;
+animation: rotateIn2 2s linear infinite;
 }
 .circle-for-cross{
 position: absolute;
-margin-left: 1430px;
-margin-top: 160px;
+top: 2780px;
+left: 1440px;
 z-index: 100;
+animation: rotateIn 0.60s linear infinite;
 }
 .cross-box-5-violet{
 position: absolute;
-margin-left: 1455px;
-margin-top: 186px;
+top: 2810px;
+left: 1465px;
 z-index: 200;
+animation: rubberBand 0.70s linear infinite;
 }
 .bank-triangle{
 position: absolute;
-margin-left: 50px;
-margin-top: -40px;
+top: 2580px;
+left: 60px;
 z-index: 100;
 }
 .liquid-triangle-box-5{
 position: absolute;
-margin-left: 100px;
-margin-top: 120px;
+top: 2740px;
+left: 110px;
 z-index: 200;
+animation: blinking 0.40s linear infinite;
+}
+.bubble-box-5{
+position: absolute;
+top: 2425px;
+left: 100px;
+animation: blinking 1s linear infinite;
+}
+.bubble2-box-5{
+position: absolute;
+top: 2476px;
+left: 205px;
+animation: blinking 0.80s linear infinite;
+}
+.bubble3-box-5{
+position: absolute;
+top: 2340px;
+left: 263px;
+animation: blinking 1s linear infinite;
+}
+.bubble4-box-5{
+position: absolute;
+top: 2590px;
+left: 60px;
+animation: blinking 0.90s linear infinite;
 }
 .cross-box-5-orange{
-margin-left: 470px;
-margin-top: 150px;
+position: absolute;
+top: 2770px;
+left: 470px;
+animation: rotateIn2 1s linear infinite;
 }
 .patch-box-5{
-margin-left: 880px;
-margin-top: -192px;
+position: absolute;
+top: 2730px;
+left: 870px;
 }
 .thermometer-box-5{
-margin-left: 880px;
-margin-top: 13px;
+position: absolute;
+top: 2870px;
+left: 870px;
 }
 .bank-circle-box-5{
 position: absolute;
-margin-top: -460px;
-margin-left: 1150px;
+top: 2400px;
+left: 1130px;
+width: 230px;
 z-index: 100;
 }
 .liquid-circle-box-5{
 position: absolute;
-margin-top: -335px;
-margin-left: 1161px;
+top: 2540px;
+left: 1148px;
+width: 200px;
 z-index: 200;
+animation: blinking 0.80s linear infinite;
 }
-.hand{
-margin-left: 1080px;
-margin-top: -910px;
-} */ */
+.bubble1-box-5{
+position: absolute;
+top: 2325px;
+left: 1260px;
+animation: blinking 0.90s linear infinite;
+}
+.bubble20-box-5{
+position: absolute;
+top: 2450px;
+left: 880px;
+animation: blinking 1s linear infinite;
+}
+.bubble30-box-5{
+position: absolute;
+top: 2300px;
+left: 880px;
+animation: blinking 0.80s linear infinite;
+}
+.bubble40-box-5{
+position: absolute;
+top: 2410px;
+left: 1110px;
+animation: blinking 0.90s linear infinite;
+}
+.bubble50-box-5{
+position: absolute;
+top: 2370px;
+left: 1310px;
+width: 70px;
+animation: blinking 1s linear infinite;
+}
