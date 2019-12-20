@@ -325,54 +325,73 @@ animation: blinking 0.90s linear infinite;
 position: absolute;
 top: 1350px;
 left: 60px;
+animation: rubberBand 1s linear infinite;
 }
 .bubble4-box-3{
 position: absolute;
 top: 1300px;
 margin-left: 250px;
+animation: rubberBand 0.80s linear infinite;
 }
 .bubble5-box-3{
 position: absolute;
 top: 1315px;
 left: 356px;
+animation: rubberBand 0.90s linear infinite;
 }
 .bubble6-box-3{
 position: absolute;
 top: 1280px;
 left: 113px;
+animation: rubberBand 1s linear infinite;
 }
-/* .bubble7-box-3{
-margin-top: -60px;
-margin-left: 410px;
-} */
-/* .bubble8-box-3{
-margin-top: -15px;
-margin-left: 100px;
-} */
-/* .bubble9-box-3{
-margin-top: -60px;
-margin-left: 160px;
-} */
-/* .bubble-box-3{
-margin-top: 15px;
-margin-left: 400px;
-} */
-/* .syringe-left{
-margin-top: 15px;
-margin-left: 110px;
-} */
-/* .doctor{
-margin-top: -630px;
-margin-left: 1090px;
-} */
-/* .bubble20-box-3{
-margin-top: -450px;
-margin-left: 800px;
-} */
-/* .bubble30-box-3{
-margin-top: 10px;
-margin-left: 860px;
-} */
+.bubble9-box-3{
+position: absolute;
+top: 1380px;
+left: 200px;
+animation: rubberBand 0.85s linear infinite;
+}
+.syringe-left{
+position: absolute;
+top: 1380px;
+left: 110px;
+}
+.doctor{
+position: absolute;
+top: 1260px;
+left: 1000px;
+}
+.bubble20-box-3{
+position: absolute;
+top: 1280px;
+left: 900px;
+animation: rubberBand 1s linear infinite;
+}
+.bubble30-box-3{
+position: absolute;
+top: 1255px;
+left: 1030px;
+animation: rubberBand 0.85s linear infinite;
+}
+.bubble40-box-3{
+position: absolute;
+top: 1250px;
+left: 800px;
+animation: rubberBand 1s linear infinite;
+}
+.bubble60-box-3{
+position: absolute;
+top: 1355px;
+left: 800px;
+animation: rubberBand 0.80s linear infinite;
+}
+.bubble70-box-3{
+position: absolute;
+top: 1375px;
+left: 940px;
+animation: rubberBand 0.90s linear infinite;
+}
+
 /* box-4 */
 /* .line-left-violet2{
 margin-top: 190px;
