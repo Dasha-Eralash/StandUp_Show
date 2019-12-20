@@ -17,6 +17,9 @@ color: #FF5408;
 left: 1082px;
 right: 100px;
 top: 147px;
+-webkit-text-shadow:0 0 70px #7116A0;
+text-shadow:0 0 70px #7116A0;
+animation: blinking 1s linear infinite;
 }
 .show{
 position: absolute;
@@ -27,6 +30,12 @@ padding: 13px;
 position: absolute;
 top: 147px;
 left: 113px;
+display: block;
+background: url(img/smile-left10.svg);
+}
+.smile-left10:hover{
+background: url(img/smile-back.svg);
+display: none;
 }
 .under-cross10{
 position: absolute;
@@ -71,8 +80,8 @@ left: 60px;
 }
 .cross10 {
 position: absolute;
-top: 630px;
-left: 990px;
+top: 610px;
+left: 980px;
 transform-origin: 95px 105px;
 animation: rotateIn 1s linear infinite;
 }
@@ -110,7 +119,7 @@ position: absolute;
 top: 540px;
 left: 395px;
 }
-/* animatin-box-1  */
+/* animation-box  */
  @keyframes rubberBand {
 0% {
  transform: scale3d(1.10, 0.75, 1);
@@ -123,9 +132,9 @@ left: 395px;
 }
 }
  @keyframes rotateIn {
-  to {
-    transform: rotate3d(0, 0, 1, -360deg);
-  }
+to {
+  transform: rotate3d(0, 0, 1, -360deg);
+}
 }
 @keyframes spin {
 0% {
@@ -138,200 +147,229 @@ left: 395px;
   transform: translate3d(0, -200%, 0);
 }
 }
+@keyframes rotateIn2 {
+to {
+ transform: rotate3d(0, 0, 1, 360deg);
+}
+}
+@keyframes blinking {
+50%{
+ opacity: 1;
+}
+75% {
+  opacity: 0;
+}
+}
+}
 /* box-2 */
-/* .smile-left2{
-margin-left: 234px;
-margin-top: 130px;
+.smile-left2{
+position: absolute;
+top: 810px;
+left: 234px;
 }
 .line-left-violet{
-margin-left: 90px;
-margin-top: -193px;
+position: absolute;
+top: 820px;
+left: 90px;
 }
 .box-of-pills{
-margin-left: 583px;
-margin-top: -510px;
-z-index: 100;
-}
-.pills-of-box{
 position: absolute;
-margin-left: 590px;
-margin-top: -215px;
-z-index: 200;
+top: 970px;
+left: 583px;
+z-index: 100;
 }
 .pill-of-box{
 position: absolute;
-margin-left: 16px;
-margin-top: -6px;
+top: 1015px;
+left: 605px;
+z-index: 200;
 animation: rotateIn 1s linear infinite;
 }
 .pill-of-box2{
 position: absolute;
-margin-left: 90px;
-margin-top: -6px;
-animation: rotateIn 1.05s linear infinite;
+top: 1016px;
+left: 680px;
+z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .pill-of-box3{
 position: absolute;
-margin-left: 16px;
-margin-top: 80px;
-animation: rotateIn 1.08s linear infinite;
+top: 1090px;
+left: 605px;
+z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .pill-of-box4{
 position: absolute;
-margin-left: 90px;
-margin-top: 80px;
-animation: rotateIn 1.04s linear infinite;
+top: 1090px;
+left: 680px;
+z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .pill-of-box5{
 position: absolute;
-margin-left: 16px;
-margin-top: 160px;
-animation: rotateIn 1.06s linear infinite;
+top: 1165px;
+left: 605px;
+z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .pill-of-box6{
 position: absolute;
-margin-left: 90px;
-margin-top: 160px;
-animation: rotateIn 1.07s linear infinite;
+top: 1165px;
+left: 680px;
+z-index: 200;
+animation: rotateIn 1s linear infinite;
 }
 .line-right-orange{
-margin-left: 764px;
-margin-top: -540px;
+position: absolute;
+top: 710px;
+left: 764px;
 }
 .bubble41{
-margin-left: 876px;
-margin-top: -170px;
-}
-.bubble21{
-margin-left: 910px;
-margin-top: -120px;
+position: absolute;
+top: 1060px;
+left: 865px;
+animation: rubberBand 0.70s linear infinite;
 }
 .bubble{
-margin-left: 870px;
-margin-top: -115px;
+position: absolute;
+top: 960px;
+left: 890px;
+animation: rubberBand 0.80s linear infinite;
 }
 .bubble31{
-margin-left: 916px;
-margin-top: -107px;
+position: absolute;
+top: 870px;
+left: 930px;
+animation: rubberBand 0.90s linear infinite;
 }
 .bottle-of-liquid{
 position: absolute;
-margin-left: 1087px;
-margin-top: 127px;
+top: 1056px;
+left: 1087px;
 z-index: 100;
 }
 .liquid-for-bottle{
 position: absolute;
-margin-left: 1095px;
-margin-top: 220px;
+left: 1095px;
+top: 1150px;
 z-index: 200;
+animation: rubberBand 1s linear infinite;
 }
 .little-smile-right{
-margin-left: 1270px;
-margin-top: 40px;
+position: absolute;
+top: 960px;
+left: 1250px;
+animation: rotateIn2 1s linear infinite;
 }
 .little-smile-right2{
-margin-left: 1427px;
-margin-top: 60px;
+position: absolute;
+top: 1100px;
+left: 1350px;
+animation: rotateIn 1s linear infinite;
 }
 .bottle-of-liquid-left-1{
 position: absolute;
-margin-left: 93px;
-margin-top: -50px;
+top: 1160px;
+left: 93px;
 z-index: 100;
 }
 .liquid-for-bottle-1{
 position: absolute;
-margin-left: 105px;
-margin-top: -43px;
+top: 1167px;
+left: 105px;
 z-index: 200;
+animation: blinking 0.80s linear infinite;
 }
 .bottle-of-liquid-left-2{
 position: absolute;
-margin-left: 200px;
-margin-top: -50px;
+top: 1160px;
+left: 200px;
 z-index: 100;
 }
 .liquid-for-bottle-2{
 position: absolute;
-margin-left: 204px;
-margin-top: -43px;
+top: 1167px;
+left: 204px;
 z-index: 200;
+animation: blinking 0.77s linear infinite;
 }
 .bottle-of-liquid-left-0{
 position: absolute;
-margin-left: 282px;
-margin-top: -50px;
+top: 1160px;
+left: 282px;
 z-index: 100;
 }
 .liquid-for-bottle-0{
 position: absolute;
-margin-left: 295px;
-margin-top: -43px;
+top: 1167px;
+left: 295px;
 z-index: 200;
+animation: blinking 0.70s linear infinite;
 }
 .bottle-of-liquid-left-3{
 position: absolute;
-margin-left: 391px;
-margin-top: -50px;
+top: 1160px;
+left: 391px;
 z-index: 100;
 }
 .liquid-for-bottle-3{
 position: absolute;
-margin-left: 396px;
-margin-top: -43px;
+top: 1167px;
+left: 396px;
 z-index: 200;
+animation: blinking 0.90s linear infinite;
 }
 /* box-3 */
-/* .bubble2-box-3{
-margin-top: 160px;
-margin-left: 60px;
-}
-.bubble3-box-3{
-margin-top: -90px;
-margin-left: 190px;
+.bubble2-box-3{
+position: absolute;
+top: 1350px;
+left: 60px;
 }
 .bubble4-box-3{
-margin-top: -140px;
-margin-left: 260px;
+position: absolute;
+top: 1300px;
+margin-left: 250px;
 }
 .bubble5-box-3{
-margin-top: 12px;
-margin-left: 300px;
+position: absolute;
+top: 1315px;
+left: 356px;
 }
 .bubble6-box-3{
-margin-top: -90px;
-margin-left: 360px;
+position: absolute;
+top: 1280px;
+left: 113px;
 }
-.bubble7-box-3{
+/* .bubble7-box-3{
 margin-top: -60px;
 margin-left: 410px;
-}
-.bubble8-box-3{
+} */
+/* .bubble8-box-3{
 margin-top: -15px;
 margin-left: 100px;
-}
-.bubble9-box-3{
+} */
+/* .bubble9-box-3{
 margin-top: -60px;
 margin-left: 160px;
-}
-.bubble-box-3{
+} */
+/* .bubble-box-3{
 margin-top: 15px;
 margin-left: 400px;
-}
-.syringe-left{
+} */
+/* .syringe-left{
 margin-top: 15px;
 margin-left: 110px;
-}
-.doctor{
+} */
+/* .doctor{
 margin-top: -630px;
 margin-left: 1090px;
-}
-.bubble20-box-3{
+} */
+/* .bubble20-box-3{
 margin-top: -450px;
 margin-left: 800px;
-}
-.bubble30-box-3{
+} */
+/* .bubble30-box-3{
 margin-top: 10px;
 margin-left: 860px;
 } */
