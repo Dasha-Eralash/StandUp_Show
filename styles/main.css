@@ -502,7 +502,6 @@ top: 1710px;
 width: 170px;
 left: 1420px;
 }
-
 /* box-5 */
 .date{
 position: absolute;
@@ -752,4 +751,114 @@ top: 2370px;
 left: 1310px;
 width: 70px;
 animation: blinking 1s linear infinite;
+}
+@media (max-width:1680px) {
+}
+@media (max-width:1440px){
+.headline{
+  font-size: 18vw;
+  left: 1075px;
+}
+.show{
+font-size: 18vw;
+top: 210px;
+left: 60px;
+ }
+.smile-left10{
+width: 25vw;
+  }
+.smile-left10:hover{
+width: 25vw;
+  }
+.under-cross10{
+width: 10vw;
+  }
+.cross-left10{
+width: 6vw;
+}
+.microphone0{
+width: 15vw;
+}
+.cross10{
+width: 13vw;
+}
+.doctor{
+width: 30vw;
+}
+.line-right-orange{
+width: 45vw;
+left: 800px;
+}
+.bubble41{
+width: 4vw;
+top: 1030px;
+left: 890px;
+}
+.bubble{
+width: 4vw;
+top: 940px;
+}
+.bubble31{
+width: 4vw;
+top: 840px;
+}
+.big-orange-line{
+width: 55vw;
+}
+.smile-left3{
+width: 10vw;
+left: 1357px;
+}
+.thermometer{
+width: 4.5vw;
+}
+.thermometer-degree{
+width: 1.5vw;
+top: 1570px;
+left: 698px;
+}
+.vertical-pill{
+left: 876px;
+}
+.cross-and-oval{
+left: 1080px;
+top: 1650px;
+}
+.big-line-violet-box-5{
+width: 20vw;
+left: 1200px;
+}
+.hand{
+width: 10vw;
+left: 1020px;
+}
+.bank-circle-box-5{
+width: 13vw;
+left: 1111px;
+}
+.liquid-circle-box-5{
+width: 11vw;
+left: 1126px;
+top: 2520px;
+}
+.syringe-big{
+width: 5vw;
+left: 1320px;
+top: 2170px;
+}
+.bubble50-box-5{
+width: 3vw;
+left: 1250px;
+}
+.bubble1-box-5{
+left: 1190px;
+}
+.circle-for-cross{
+left: 1370px;
+top: 2700px;
+}
+.cross-box-5-violet{
+left: 1395px;
+top: 2730px;
+}
 }
