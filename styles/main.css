@@ -752,12 +752,13 @@ left: 1310px;
 width: 70px;
 animation: blinking 1s linear infinite;
 }
-@media (max-width:1680px) {
+/* media */
+@media (max-width:1680px){
 }
 @media (max-width:1440px){
 .headline{
-  font-size: 18vw;
-  left: 1075px;
+font-size: 18vw;
+left: 1075px;
 }
 .show{
 font-size: 18vw;
@@ -860,5 +861,177 @@ top: 2700px;
 .cross-box-5-violet{
 left: 1395px;
 top: 2730px;
+}
+}
+@media (max-width:1366px){
+.headline{
+font-size: 17vw;
+left: 1075px;
+}
+.show{
+font-size: 17vw;
+top: 187px;
+left: 60px;
+}
+.cross10{
+width: 12vw;
+}
+.bubble41{
+width: 4vw;
+top: 1010px;
+}
+.bubble{
+width: 3vw;
+top: 930px;
+left: 910px;
+}
+.little-smile-right2{
+width: 9vw;
+top: 1100px;
+left: 1300px;
+}
+.little-smile-right{
+width: 9vw;
+top: 960px;
+left: 1200px;
+}
+.bubble1-box-4{
+width: 3vw;
+}
+.vertical-pill{
+left: 854px;
+}
+.cross-and-oval{
+width: 9vw;
+left: 1065px;
+}
+.doctor{
+width: 28vw;
+}
+.smile-left3{
+top: 1680px;
+left: 1310px;
+}
+.big-line-violet-box-5{
+width: 18vw;
+top: 1940px;
+left: 1190px;
+}
+.syringe-big{
+width: 5vw;
+left: 1300px;
+top: 2060px;
+}
+.bank-circle-box-5{
+width: 11vw;
+top: 2340px;
+left: 1100px;
+}
+.liquid-circle-box-5{
+width: 9vw;
+left: 1115px;
+top: 2440px;
+}
+.long-line-violet-box-5{
+width: 50vw;
+top: 2250px;
+left: 400px;
+}
+.bubble40-box-5{
+top: 2320px;
+left: 1060px;
+}
+.bubble1-box-5{
+top: 2280px;
+}
+.bubble50-box-5{
+top: 2340px;
+}
+.syringe-small{
+top: 2260px;
+left: 940px;
+}
+.bank-box-5{
+top: 2150px;
+}
+.bubble20-box-5{
+top: 2370px;
+}
+.bubble30-box-5{
+top: 2210px;
+left: 880px;
+}
+.moscow{
+font-size: 5vw;
+top: 2040px;
+left: 115px;
+}
+.date{
+font-size: 16vw;
+top: 1840px;
+left: 110px;
+}
+.address{
+font-size: 3vw;
+top: 2136px;
+left: 220px;
+}
+.location{
+width: 6vw;
+top: 2140px;
+left: 115px;
+}
+.circle-for-cross{
+width: 8vw;
+left: 1320px;
+top: 2580px;
+}
+.cross-box-5-violet{
+left: 1395px;
+top: 2730px;
+}
+.cross-box-5-violet{
+width: 6vw;
+left: 1336px;
+top: 2600px;
+}
+.briefcase-box-5{
+top: 2540px;
+width: 16vw;
+}
+.cross-briefcase-box-5{
+top: 2570px;
+}
+.patch-box-5{
+width: 18vw;
+top: 2640px;
+left: 850px;
+}
+.box-of-pills3{
+top: 2340px;
+left: 419px;
+}
+.thermometer-box-5{
+top: 2757px;
+left: 840px;
+}
+.cross-box-5-orange{
+top: 2670px;
+}
+.bank-triangle{
+width: 26vw;
+top: 2500px;
+}
+.liquid-triangle-box-5{
+top: 2650px;
+}
+.bubble2-box-5{
+top: 2390px;
+}
+.bubble3-box-5{
+top: 2280px;
+}
+.bubble4-box-5{
+top: 2530px;
 }
 }
