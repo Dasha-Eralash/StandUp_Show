@@ -1035,3 +1035,163 @@ top: 2280px;
 top: 2530px;
 }
 }
+@media (max-width:1280px){
+.headline{
+font-size: 18vw;
+left: 950px;
+}
+.show{
+font-size: 18vw;
+top: 190px;
+left: 45px;
+}
+.line-left30{
+display: none;
+}
+.microphone0{
+width: 14vw;
+left: 630px;
+}
+.pill-right10{
+top: 250px;
+left: 850px;
+}
+.cross10{
+display: none;
+}
+.cross-left10{
+left: 458px;
+}
+.line-right-orange{
+width: 43vw;
+top: 540px;
+left: 620px;
+}
+.bubble41{
+display: none;
+}
+.bubble31{
+display: none;
+}
+.bubble{
+display: none;
+}
+.little-smile-right{
+width: 19vw;
+top: 800px;
+left: 980px;
+}
+.little-smile-right2{
+width: 19vw;
+top: 1100px;
+left: 1100px;
+}
+.bottle-of-liquid{
+width: 15vw;
+top: 1030px;
+left: 800px;
+}
+.liquid-for-bottle{
+width: 13vw;
+left: 815px;
+top: 1170px;
+}
+.big-orange-line{
+width: 53vw;
+}
+.doctor{
+width: 30vw;
+top: 1290px;
+left: 1020px;
+}
+.big-orange-line{
+width: 50vw;
+top: 1460px;
+left: 590px;
+}
+.vertical-pill{
+width: 5vw;
+left: 848px;
+}
+.cross-and-oval{
+left: 1020px;
+}
+.smile-left3{
+display: none;
+}
+.big-line-violet-box-5{
+width: 20vw;
+top: 1680px;
+left: 1160px
+}
+.syringe-big{
+width: 5vw;
+left: 1270px;
+top: 1830px;
+}
+.hand{
+width: 12vw;
+top: 1900px;
+left: 980px;
+}
+.bank-circle-box-5{
+width: 13vw;
+top: 2440px;
+left: 1110px;
+}
+.liquid-circle-box-5{
+width: 11vw;
+left: 1123px;
+top: 2540px;
+}
+.bubble40-box-5{
+top: 2390px;
+left: 1060px;
+}
+.bubble1-box-5{
+left: 1070px;
+}
+.bubble50-box-5{
+top: 2200px;
+left: 1160px;
+}
+.bubble20-box-5{
+left: 860px
+}
+.circle-for-cross{
+width: 11vw;
+left: 1260px;
+top: 2660px;
+}
+.cross-box-5-violet{
+width: 8vw;
+left: 1280px;
+top: 2680px;
+}
+.bank-box-5{
+top: 2140px;
+left: 670px;
+}
+.box-of-pills3{
+top: 2330px;
+left: 410px;
+}
+.briefcase-box-5{
+top: 2510px;
+left: 606px;
+}
+.cross-briefcase-box-5{
+top: 2540px;
+left: 670px;
+}
+.syringe-small{
+top: 2250px;
+left: 910px;
+}
+.liquid-triangle-box-5{
+left: 100px;
+}
+.cross-box-5-orange{
+top: 2660px;
+}
+}
