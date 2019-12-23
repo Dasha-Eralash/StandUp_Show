@@ -1195,3 +1195,139 @@ left: 100px;
 top: 2660px;
 }
 }
+@media (max-width:1152px){
+.headline{
+font-size: 20vw;
+}
+.show{
+font-size: 20vw;
+top: 190px;
+left: 64px;
+}
+.smile-left10{
+width: 33vw;
+}
+.under-cross10{
+top: 326px;
+left: 440px;
+}
+.cross-left10{
+top: 356px;
+left: 463px;
+}
+.microphone0{
+width: 17vw;
+left: 610px;
+}
+.liquid-for-bottle{
+top: 1150px;
+}
+.doctor{
+top: 1320px;
+}
+.cross-and-oval{
+left: 976px;
+top: 1620px;
+}
+.vertical-pill{
+left: 820px;
+}
+.thermometer-degree{
+left: 694px;
+}
+.big-line-violet-box-5{
+top: 1664px;
+left: 1100px;
+}
+.syringe-big{
+left: 1210px;
+top: 1800px;
+}
+.hand{
+left: 940px;
+}
+.bank-box-5{
+width: 12vw;
+top: 2170px;
+left: 640px;
+}
+.bubble20-box-5{
+top: 2340px;
+left: 786px;
+}
+.bubble30-box-5{
+top: 2150px;
+left: 780px;
+}
+.syringe-small{
+top: 2220px;
+left: 850px;
+}
+.box-of-pills3{
+top: 2326px;
+left: 390px;
+}
+.briefcase-box-5{
+top: 2490px;
+left: 585px;
+}
+.cross-briefcase-box-5{
+top: 2510px;
+left: 637px;
+}
+.patch-box-5{
+top: 2570px;
+left: 780px;
+}
+.liquid-triangle-box-5{
+width: 20vw;
+top: 2630px;
+left: 100px;
+}
+.cross-box-5-orange{
+top: 2645px;
+left: 440px;
+}
+.thermometer-box-5{
+top: 2665px;
+left: 780px;
+}
+.bubble4-box-5{
+left: 50px;
+}
+.bubble40-box-5{
+left: 1020px;
+}
+.bubble1-box-5{
+left: 1024px;
+}
+.bank-circle-box-5{
+top: 2400px;
+left: 1055px;
+}
+.liquid-circle-box-5{
+left: 1070px;
+top: 2500px;
+}
+.bubble50-box-5{
+left: 1050px;
+}
+.circle-for-cross{
+top: 2230px;
+left: 1226px;
+}
+.cross-box-5-violet{
+top: 2248px;
+left: 1245px;
+}
+.little-smile-right{
+width: 22vw;
+top: 780px;
+left: 960px;
+}
+.little-smile-right2{
+width: 22vw;
+top: 1080px;
+left: 1080px;
+}
+}
